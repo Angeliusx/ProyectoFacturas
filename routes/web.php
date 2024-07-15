@@ -12,6 +12,7 @@ use App\Http\Livewire\Pages\Actividades;
 use App\Http\Livewire\Pages\Empresas;
 use App\Http\Livewire\Pages\DemandasPrima;
 use App\Http\Livewire\Pages\DemandasProfuturo;
+use App\Http\Controllers\PlantillaController; 
 
 
 use App\Http\Livewire\Pages\Dashboard;
@@ -67,3 +68,6 @@ Route::get('/admin/add-user', AddUser::class)->middleware(['auth'])->name('add-u
 //VISTA IA
 
 require __DIR__ . '/auth.php';
+
+//
+Route::get('/plantilla-correo/{plantilla}', [PlantillaController::class, 'mostrar']);
