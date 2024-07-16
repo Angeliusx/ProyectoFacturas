@@ -65,7 +65,7 @@ class Facturas extends Component
     public $camposBusqueda = [
         'NR_DEMANDA' => 'Nro Demanda',
         'CODIGO_UNICO_EXPEDIENTE' => 'Codigo de Expediente',
-        'RUC_EMPLEADOR' => 'RUC',
+        // 'RUC_EMPLEADOR' => 'RUC',
         'RAZON_SOCIAL' => 'Razon Social',
 
     ];

@@ -31,7 +31,7 @@
                 <div class="col-md-6">
                     @if (auth()->user()->hasRole('admin'))
                         <div class="form-group">
-                            <label>Importar</label>
+                            <label>Importar Facturas en Excel</label>
                             <br>
                             <div class="input-group">
                             <input type="file" class="form-control" wire:model="excel" id="excel" class="form-control-file" wire:loading.attr="disabled" wire:target="excel" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
