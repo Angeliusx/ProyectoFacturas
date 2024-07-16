@@ -408,6 +408,7 @@ class Facturas extends Component
         $this->delete_demanda = '';
     }
 
+    
     public function descargarInfo($id)
     {
         try{
