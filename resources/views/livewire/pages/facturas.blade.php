@@ -15,7 +15,7 @@
             <div class="row mb-3">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="campoSeleccionado">Campo:</label>
+                        <label for="campoSeleccionado">Campo Para Buscar:</label>
                         <select id="campoSeleccionado" wire:model="campoSeleccionado" class="form-control">
                             @foreach ($camposBusqueda as $campo => $label)
                                 <option value="{{ $campo }}">{{ $label }}</option>
