@@ -8,7 +8,7 @@
 
     <div class="card">
         <div class="card-header">
-            <h4>Actividad de la Facturas de las Demandas</h4>
+            <h4>Actividad de la Facturas de las Demandas totales</h4>
         </div>
 
         <div class="card-body">
